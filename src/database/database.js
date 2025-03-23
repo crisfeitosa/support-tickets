@@ -33,5 +33,5 @@ export class Database {
     let data = this.#database[table] ?? [];
 
     return data;
-  }
+  };
 }
